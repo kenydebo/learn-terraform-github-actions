@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "ReadMe"
+    organization = "Omoba-Terraform-Demos"
 
     workspaces {
-      name = "Readme"
+      name = "demo-github-actions"
     }
   }
 }
